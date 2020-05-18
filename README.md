@@ -11,9 +11,9 @@ The program needs a API key to get the informations, so to get a free API key go
 
 The list of actions that can be done
 
-* To access the id of a perticular club
+* **To access the id of a perticular club**
 
-Check [this]() file if you're unable to find your club, names of the clubs may differ from traditional.
+Check [this](https://github.com/boop34/footballstats/blob/master/src/teamsids.json) file if you're unable to find your club, names of the clubs may differ from traditional.
 >python main.py club_info {club_name}
 
 #### Example:
@@ -43,7 +43,7 @@ Jérôme Boateng (DF)
 
 * **To get the standings of a competitions**
 
-To get the list od the compettions available for the free tier users check [this]() page
+To get the list od the compettions available for the free tier users check [this](https://github.com/boop34/footballstats/blob/master/src/leagueids.json) page
 >python main.py league_table {comptetition_name}
 
 #### Example:
@@ -95,7 +95,7 @@ Or you can provid only the starting date and it'll show you all the matches till
 
 * **To access the matches of a competition**
 
-For competition names check [this]() file.
+For competition names check [this](https://github.com/boop34/footballstats/blob/master/src/leagueids.json) file.
 >pyton main.py comp_match_info {competition_name} {start date}(optional) {end date}(optional)
 
 #### Example:
@@ -125,3 +125,5 @@ Or you can give the starting date only (for free tier users this also is limited
 ```
 >> python main.py comp_match_info SA 2020-01-07
 ```
+
+The ```leagueids.json``` and ```teamids.json``` files are taken from [this project](https://github.com/architv/soccer-cli). 
